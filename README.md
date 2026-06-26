@@ -1,62 +1,62 @@
-# Number Guessing Game (Version 1)
+# Number Guessing Game (Version 2)
 
-A simple JavaScript console-based number guessing game where the player tries to guess a randomly generated number within a range.
+A browser-based number guessing game with a simple user interface. The player tries to guess a randomly generated number within a given range using input and feedback on the page.
 
 ---
 
 ## How It Works
 
-- The game generates a random number within a range
-- You have 10 attempts to guess correctly
-- After each guess, you get hints like:
-  - Too high
-  - Too low
-  - Close
-  - Out of range
+- A random number is generated between a lower and upper limit
+- The player enters guesses in an input field
+- The game gives real-time feedback after each guess
+- The player has limited attempts to guess correctly
 
 ---
 
 ## Features
 
-- Random number generation
-- Input validation (checks for invalid numbers)
-- Hint system based on distance from correct answer
-- Win / Lose conditions
-- Runs in browser using `prompt` and `alert`
-
----
-
-## How to Run
-
-1. Copy or clone the project
-2. Open `index.html` in a browser
-3. The game starts automatically using pop-up prompts
+- Interactive UI (no prompts or alerts)
+- Input-based guessing system
+- Hint feedback (too high, too low, close, out of range)
+- Win and game-over conditions
+- Trial limit system
 
 ---
 
 ## Game Rules
 
-- You have 10 trials
+- You have 10 attempts
 - Guess must be within the generated range
-- Hints help guide your next guess
+- Feedback is shown after each guess
 - Game ends when you win or run out of trials
 
 ---
 
 ## Version
 
-**Version 1 (Console-based prompt/alert system)**
+**Version 2 (Interactive UI-based game)**
 
 ---
 
-## Notes
+## Improvements Over Version 1
 
-- This version uses `window.prompt()` and `window.alert()`
-- No UI interface (runs entirely in browser popups)
-- Later versions may include a graphical interface
+- Replaced `prompt` and `alert` with a proper UI
+- Better user experience with input fields
+- Real-time feedback displayed on screen
+- Cleaner and more modern interaction flow
 
 ---
 
-## License
+## Screenshot
+
+<img width="1366" height="605" alt="image" src="https://github.com/user-attachments/assets/6155a823-2047-40dc-b3f4-f9a28a501657" />
+
+---
+
+##License
 
 Free to use
+
+##author
+
+Sudaice
