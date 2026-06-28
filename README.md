@@ -61,6 +61,8 @@ A simple JavaScript console-based number guessing game where the player tries to
 
 <img width="433" height="153" alt="image" src="https://github.com/user-attachments/assets/b6d02018-67fe-41db-ad45-2fff83965699" />
 
+<img width="433" height="133" alt="image" src="https://github.com/user-attachments/assets/e96c6dfe-60c7-442e-ab05-1246e7f9a22d" />
+
 <img width="438" height="182" alt="image" src="https://github.com/user-attachments/assets/b14c10a9-5148-4bff-807c-2dc6c27994aa" />
 
 <img width="430" height="134" alt="image" src="https://github.com/user-attachments/assets/539c1f69-a99f-425e-be08-cd29ad97c09b" />
