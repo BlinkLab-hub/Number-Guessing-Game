@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game Version 1</title>
+  </head>
+  <body>
+    <script>
+      // LESSON 9: Guessing game
+      let guess;
+      let limit1 = Math.floor(Math.random() * 100 + 1);
+      let limit2 = Math.floor(Math.random() * 100 + 1);
+      let upperLimit = Math.max(limit1, limit2);
+      let lowerLimit = Math.min(limit1, limit2);
+      let correctGuess = Math.floor(
+        Math.random() * (upperLimit - lowerLimit + 1) + lowerLimit,
+      );
+      let maxTrials = 10;
+      let trials = 0;
+      let won = false;
+      window.alert(`🎮🎮🎮WELCOME TO THE NUMBER GUESSING GAME🎮🎮🎮`);
+      while (trials < maxTrials) {
+        trials++;
+        guess = window.prompt(
+          `Enter a number between ${lowerLimit} and ${upperLimit}.`,
+        );
+        guess = Number(guess);
+        if (isNaN(guess)) {
+          window.alert(
+            `Invalid input! The guess must me a valid number. You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess === correctGuess) {
+          window.alert(`You WIN🎉! ${guess} was the correct guess.`);
+          won = true;
+          break;
+        } else if (guess > upperLimit || guess < lowerLimit) {
+          window.alert(
+            `${guess} is out of range! You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess > correctGuess + 10) {
+          window.alert(
+            `${guess} is too high! You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess < correctGuess - 10) {
+          window.alert(
+            `${guess} is too low! You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess < correctGuess - 5) {
+          window.alert(
+            `${guess} is low! You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess > correctGuess + 5) {
+          window.alert(
+            `${guess} is high! You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess < correctGuess) {
+          window.alert(
+            `${guess} is low but close! You have ${maxTrials - trials}trials left`,
+          );
+        } else if (guess > correctGuess) {
+          window.alert(
+            `${guess} is high but close! You have ${maxTrials - trials}trials left`,
+          );
+        }
+      }
+      if (!won) {
+        window.alert("You LOSE😅! You are out of trials.");
+      }
+      window.alert(
+        `GAME OVER!\nRefresh page to restart game🎮. Bye👋🏻\nCreated by Sudaice`,
+      );
+    </script>
+  </body>
+</html>
