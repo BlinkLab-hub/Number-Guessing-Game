@@ -59,15 +59,13 @@ A simple JavaScript console-based number guessing game where the player tries to
 
 ## Screenshots
 
-<img width="420" height="1140" alt="image" src="https://github.com/user-attachments/assets/8e7c6854-2446-4d5f-9561-545110d2e09f" />
+<img width="433" height="153" alt="image" src="https://github.com/user-attachments/assets/b6d02018-67fe-41db-ad45-2fff83965699" />
 
-<img width="444" height="188" alt="image" src="https://github.com/user-attachments/assets/2c1c09bf-505b-493b-b5d5-21bd5076c118" />
+<img width="438" height="182" alt="image" src="https://github.com/user-attachments/assets/b14c10a9-5148-4bff-807c-2dc6c27994aa" />
 
+<img width="430" height="134" alt="image" src="https://github.com/user-attachments/assets/539c1f69-a99f-425e-be08-cd29ad97c09b" />
 
-<img width="445" height="139" alt="image" src="https://github.com/user-attachments/assets/cd90b9aa-3ea9-4bee-aff2-d232de2afd28" />
-
-<img width="445" height="180" alt="image" src="https://github.com/user-attachments/assets/0b6d1a7c-2b53-40e0-b0fa-e7062b8a0886" />
-
+<img width="422" height="171" alt="image" src="https://github.com/user-attachments/assets/c432b604-3b27-40b3-b7e9-a19b50272b80" />
 
 ---
 
