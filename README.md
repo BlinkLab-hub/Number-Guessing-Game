@@ -57,9 +57,16 @@ A simple JavaScript console-based number guessing game where the player tries to
 
 ---
 
-## Screenshot
+## Screenshots
 
 <img width="440" height="156" alt="image" src="https://github.com/user-attachments/assets/8e7c6854-2446-4d5f-9561-545110d2e09f" />
+
+<img width="446" height="193" alt="image" src="https://github.com/user-attachments/assets/53eef756-2916-4b24-88c5-da6ba28a9934" />
+
+<img width="451" height="144" alt="image" src="https://github.com/user-attachments/assets/cd90b9aa-3ea9-4bee-aff2-d232de2afd28" />
+
+<img width="452" height="189" alt="image" src="https://github.com/user-attachments/assets/0b6d1a7c-2b53-40e0-b0fa-e7062b8a0886" />
+
 
 ---
 
